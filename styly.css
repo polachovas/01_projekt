@@ -25,7 +25,22 @@ h1 {
     background: url(images/banner.jpg) center center / cover no-repeat; 
     display: flex;
   }
+
+
+.carousel-text {
+    padding: 20px;
+    text-align: left;
+}
   
-  .container {
-    height: 100%;
+  .carousel-text h2 {
+    font-size: 24px;
+    font-weight: bold;
   }
+  
+  .carousel-text p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+
+  
