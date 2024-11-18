@@ -26,6 +26,13 @@ h1 {
     display: flex;
   }
 
+  .custom-background2 {
+    height: 500px;
+    width: 100%; 
+    background: url(images/73f43937da2a366643f4f507f523871a.jpg) center center / cover no-repeat; 
+    display: flex;
+  }
+
 
 .carousel-text {
     padding: 20px;
@@ -73,6 +80,20 @@ footer a {
     color: #AA2AB1;
 }
 
+.uvod_koncerty{background-color: black;
+                }
+
+
+
+    .gallery-item img {
+        transition: transform 0.3s ease;
+    }
+
+    .gallery-item img:hover {
+        transform: scale(1.05);
+    }
+
+.greyday{background-color: #76A6BD;}
 
 
   
