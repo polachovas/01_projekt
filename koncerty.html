@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" rel="stylesheet">
   <link rel="stylesheet" href="styly.css" type="text/css">
   <link rel="stylesheet" href="https://use.typekit.net/dos0ctl.css">
   <title>KONCERTY</title>
@@ -66,7 +67,46 @@
   </header>
 
   <section class="uvod_koncerty bg-black">
-  
+    <div class="container py-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+          
+          <div class="col gallery-item">
+              <a href="images/gd1.jpg" data-fancybox="gallery" data-caption="Obrázek 1">
+                  <img src="images/gd1.jpg" alt="Obrázek 1">
+              </a>
+          </div>
+         
+          <div class="col gallery-item">
+              <a href="images/gd2.jpg" data-fancybox="gallery" data-caption="Obrázek 2">
+                  <img src="images/gd2.jpg" alt="Obrázek 2">
+              </a>
+          </div>
+         
+          <div class="col gallery-item">
+              <a href="images/gd3.webp" data-fancybox="gallery" data-caption="Obrázek 3">
+                  <img src="images/gd3.webp" alt="Obrázek 3">
+              </a>
+          </div>
+         
+          <div class="col gallery-item">
+              <a href="images/gd4.webp" data-fancybox="gallery" data-caption="Obrázek 4">
+                  <img src="images/gd4.webp" alt="Obrázek 4">
+              </a>
+          </div>
+
+          <div class="col gallery-item">
+            <a href="images/gd5.webp" data-fancybox="gallery" data-caption="Obrázek 4">
+                <img src="images/gd5.webp" alt="Obrázek 4">
+            </a>
+        </div>
+
+        <div class="col gallery-item">
+          <a href="images/gd6.webp" data-fancybox="gallery" data-caption="Obrázek 4">
+              <img src="images/gd6.webp" alt="Obrázek 4">
+          </a>
+      </div>
+         
+    </div>
   </section>
 
   <section class="greyday">
@@ -88,7 +128,8 @@
                 11.10.
               </p>
               <p>Cena lístků se pohybuje v rozmezí od 50$-70$(přibližně 1150–1600 Kč) až po 400$(9000 Kč)</p>
-              <p class="fw-bold fs-5"><a href="https://www.ticketmaster.com/uicideboy-tickets/artist/2194218">Odkaz na Ticketmaster (lístky nedostupné, tour skončila)</a></p>
+              <p class="fw-bold fs-5"><a href="https://www.ticketmaster.com/uicideboy-tickets/artist/2194218">Odkaz na
+                  Ticketmaster (lístky nedostupné, tour skončila)</a></p>
             </div>
             <div class="col-4">
               <img src="images/greyday_mista.jpg" class="img-fluid d-flex mx-auto" alt="">
@@ -98,7 +139,7 @@
       </div>
     </div>
   </section>
-  
+
   <footer class="pt-5">
     <h3>Projekt 1 - 2.G - 2024</h3>
     <div class="texty">
@@ -118,9 +159,21 @@
       </article>
     </div>
   </footer>
-  
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script>
+      // Inicializace Fancybox pro galerii
+      Fancybox.bind('[data-fancybox="gallery"]', {
+          Thumbs: {
+              autoStart: true,  // Povolit miniatury pro náhledy obrázků
+          },
+          Toolbar: {
+              display: ['counter', 'close'],  // Zobrazit čítač a tlačítko pro zavření
+          }
+      });
   </script>
 </body>
