@@ -76,10 +76,6 @@ footer h4 {
     justify-content: space-around;
 }
 
-footer a {
-    color: #AA2AB1;
-}
-
 .uvod_koncerty{background-color: black;
                 }
 
@@ -94,6 +90,8 @@ footer a {
     }
 
 .greyday{background-color: #76A6BD;}
+
+a{color: #76A6BD;}
 
 
   
