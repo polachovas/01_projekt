@@ -76,11 +76,6 @@ footer h4 {
     justify-content: space-around;
 }
 
-.uvod_koncerty{background-color: black;
-                }
-
-
-
     .gallery-item img {
         transition: transform 0.3s ease;
     }
@@ -93,5 +88,12 @@ footer h4 {
 
 a{color: #76A6BD;}
 
+
+.gallery-img {
+    cursor: pointer;
+  }
+  .modal-body {
+    position: relative;
+  }
 
   
