@@ -1,74 +1,608 @@
 <!doctype html>
 <html lang="cs">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="styly.css" type="text/css">
-    <link rel="stylesheet" href="https://use.typekit.net/dos0ctl.css">
-    <title>DISKOGRAFIE</title>
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-md bg-body-transparent">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="images/g59_logo.png" alt="Bootstrap" width="45" height="45">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="koncerty.html">KONCERTY</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="diskografie.html">DISKOGRAFIE</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="biografie.html">BIOGRAFIE</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  SOCIÁLNÍ MÉDIA
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="https://www.instagram.com/g59records"><img src="images/instagram.png"
-                        class="w-25" alt=""> Instagram</a></li>
-                  <li><a class="dropdown-item" href="https://x.com/g59records"><img src="images/twitter.png" class="w-25"
-                        alt=""> Twitter</a></li>
-                  <li><a class="dropdown-item" href="https://www.facebook.com/people/G59-Records/100047564497664/"><img
-                        src="images/fb.png" class="w-25" alt=""> Facebook</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  VÍCE
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#hudba">SPOTIFY</a></li>
-                  <li><a class="dropdown-item" href="#kontakt">KONTAKT</a></li>
-                  <li><a class="dropdown-item" href="koncerty.html#uvod_koncerty">GALERIE</a></li>
-                </ul>
-              </li>
-            </ul>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styly.css" type="text/css">
+  <link rel="stylesheet" href="https://use.typekit.net/dos0ctl.css">
+  <title>DISKOGRAFIE</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md bg-body-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/g59_logo.png" alt="Bootstrap" width="45" height="45">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="koncerty.html">KONCERTY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="diskografie.html">DISKOGRAFIE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="biografie.html">BIOGRAFIE</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                SOCIÁLNÍ MÉDIA
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.instagram.com/g59records"><img src="images/instagram.png"
+                      class="w-25" alt=""> Instagram</a></li>
+                <li><a class="dropdown-item" href="https://x.com/g59records"><img src="images/twitter.png" class="w-25"
+                      alt=""> Twitter</a></li>
+                <li><a class="dropdown-item" href="https://www.facebook.com/people/G59-Records/100047564497664/"><img
+                      src="images/fb.png" class="w-25" alt=""> Facebook</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                VÍCE
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#hudba">SPOTIFY</a></li>
+                <li><a class="dropdown-item" href="#kontakt">KONTAKT</a></li>
+                <li><a class="dropdown-item" href="koncerty.html#uvod_koncerty">GALERIE</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="diskografie_banner">
+    <div class="custom-background4 d-flex align-items-center justify-content-center">
+      <h1 class="text-light text-center">G59 DISKOGRAFIE</h1>
+    </div>
+  </section>
+
+  <section class="sb_alba">
+    <div class="container">
+      <h1 class="text-center pt-5">$uicideboy$</h1>
+      <div id="sbCarousel" class="carousel slide">
+        <div class="carousel-inner pt-5 pb-5">
+          <div class="carousel-item active">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/sb_diskografie.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-dark fw-light">New World Depression</h2>
+                  <p>New World Depression je temné a introspektivní album, které se zaměřuje na pocity osamělosti,
+                    zmatení a zoufalství v moderním světě. S hlubokými texty a těžkými beaty nabízí album pohled na
+                    současnou společnost a její deprese.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/73nX7BaV2Rat4AFVNV3YGR?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/eternalgrey.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-dark fw-light">I HOPE YOU'RE HAPPY</h2>
+                  <p>I HOPE YOU'RE HAPPY je emočně nabité album, které prozkoumává téma vnitřních bojů, ztráty a naděje.
+                    S osobními texty a melancholickými melodiemi se Shakewell vyrovnává s těžkostmi života, přičemž
+                    stále zůstává autentický vůči svému posluchači.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/0cQvicmQo8syJ2Zv8aYDfN?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/lteos.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-dark fw-light">FROM THA GUTTAH TO THA GRAVE</h2>
+                  <p>FROM THA GUTTAH TO THA GRAVE je drsné a nekompromisní album, které reflektuje život v těžkých
+                    podmínkách. S temným podtónem a reálnými příběhy z ulice, Shakewell přináší realitu života, který se
+                    pohybuje od začátku v chudých čtvrtích až po osobní ztráty a tragédie.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/19n8izXThARSuQAXrOKNbO?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/mlwh.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-dark fw-light"> EVERY DOG HAS ITS DAY</h2>
+                  <p>EVERY DOG HAS ITS DAY je album, které se zaměřuje na téma věrnosti, ztrát a triumfů. Shakewell
+                    vypráví příběh o životních vzestupech a pádech, připomínající, že každý má svůj "den," kdy získá to,
+                    co si zaslouží, a to nejen v negativním slova smyslu.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/0kEZlJh4mK1QRfb3CT5LPk?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/iwtdino_album.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-dark fw-light">Pray 4 Shakewell</h2>
+                  <p>Pray 4 Shakewell je album plné intenzivních a upřímných emocí, které odrážejí osobní výzvy a zápasy
+                    umělce. Shakewell ve svých textech volá o pomoc a zároveň sdílí svůj příběh o překonávání těžkostí a
+                    hledání smyslu ve světě, který ho často tlačí dolů.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/2XSrt1dcuOXPgl3B4bxmBz?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/ntms.png" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-dark">SACRIFICE & SABOTAGE</h2>
+                  <p>SACRIFICE & SABOTAGE zkoumá témata obětí, které člověk musí učinit, aby dosáhl svých cílů, a
+                    zároveň zrad a sabotáže, které mohou přijít ze stran, které mu jsou nejblíže. Album je plné temných,
+                    ale silných motivů, které ukazují realitu úspěchu a ceny, kterou za něj člověk zaplatí.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/6tO5bxNnMuh1c3cziSpecA?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-    </header>
 
-    <section class="diskografie_banner">
-      <div class="custom-background4 d-flex align-items-center justify-content-center">
-        <h1 class="text-light text-center">G59 DISKOGRAFIE</h1>
+        <button class="carousel-control-prev custom-control" type="button" data-bs-target="#sbCarousel"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark rounded" aria-hidden="true"></span>
+          <span class="visually-hidden">Předchozí</span>
+        </button>
+        <button class="carousel-control-next custom-control" type="button" data-bs-target="#sbCarousel"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark rounded" aria-hidden="true"></span>
+          <span class="visually-hidden">Další</span>
+        </button>
       </div>
-    </section>
+    </div>
+  </section>
 
+  <section class="nl_alba bg-dark">
+    <div class="container">
+      <h1 class="text-center text-light pt-5">Nightlovell</h1>
+      <div id="nlCarousel" class="carousel slide">
+        <div class="carousel-inner pt-5 pb-5">
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/nl_diskografie.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-light fw-light">New World Depression</h2>
+                  <p class="text-light">New World Depression je temné a introspektivní album, které se zaměřuje na
+                    pocity osamělosti,
+                    zmatení a zoufalství v moderním světě. S hlubokými texty a těžkými beaty nabízí album pohled na
+                    současnou společnost a její deprese.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/6hkvLSaj3o564x8Hk6iMMw?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/jsydc.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-light fw-light">FROM THA GUTTAH TO THA GRAVE</h2>
+                  <p class="text-light">FROM THA GUTTAH TO THA GRAVE je drsné a nekompromisní album, které reflektuje
+                    život v těžkých
+                    podmínkách. S temným podtónem a reálnými příběhy z ulice, Shakewell přináší realitu života, který se
+                    pohybuje od začátku v chudých čtvrtích až po osobní ztráty a tragédie.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/32gSPav2xqFylAeCjJCxWi?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/gnl.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-light fw-light"> EVERY DOG HAS ITS DAY</h2>
+                  <p class="text-light">EVERY DOG HAS ITS DAY je album, které se zaměřuje na téma věrnosti, ztrát a
+                    triumfů. Shakewell
+                    vypráví příběh o životních vzestupech a pádech, připomínající, že každý má svůj "den," kdy získá to,
+                    co si zaslouží, a to nejen v negativním slova smyslu.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/1nQwi9UGdNeN1FyzGE7jDt?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/redteen.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-light fw-light">Pray 4 Shakewell</h2>
+                  <p class="text-light">Pray 4 Shakewell je album plné intenzivních a upřímných emocí, které odrážejí
+                    osobní výzvy a zápasy
+                    umělce. Shakewell ve svých textech volá o pomoc a zároveň sdílí svůj příběh o překonávání těžkostí a
+                    hledání smyslu ve světě, který ho často tlačí dolů.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/4aXit1CKxL80R1qruHns8h?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/concept vague.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-light">SACRIFICE & SABOTAGE</h2>
+                  <p class="text-light">SACRIFICE & SABOTAGE zkoumá témata obětí, které člověk musí učinit, aby dosáhl
+                    svých cílů, a
+                    zároveň zrad a sabotáže, které mohou přijít ze stran, které mu jsou nejblíže. Album je plné temných,
+                    ale silných motivů, které ukazují realitu úspěchu a ceny, kterou za něj člověk zaplatí.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/2y57H6nA3vic5t8awwaS69?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+          <button class="carousel-control-prev custom-control" type="button" data-bs-target="#nlCarousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded" aria-hidden="true"></span>
+            <span class="visually-hidden">Předchozí</span>
+          </button>
+          <button class="carousel-control-next custom-control" type="button" data-bs-target="#nlCarousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded" aria-hidden="true"></span>
+            <span class="visually-hidden">Další</span>
+          </button>
+        </div>
+      </div>
+  </section>
+
+  <section class="ramirez_alba">
+    <div class="container">
+      <h1 class="text-center pt-5">Ramirez</h1>
+      <div id="ramirezCarousel" class="carousel slide">
+        <div class="carousel-inner pt-5 pb-5">
+          <div class="carousel-item active">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/ramirez_diskografie.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-dark fw-light">New World Depression</h2>
+                  <p>New World Depression je temné a introspektivní album, které se zaměřuje na pocity osamělosti,
+                    zmatení a zoufalství v moderním světě. S hlubokými texty a těžkými beaty nabízí album pohled na
+                    současnou společnost a její deprese.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/4kxt9byN6qlos3bva6Rrf0?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/mmwtrtg.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-dark fw-light">I HOPE YOU'RE HAPPY</h2>
+                  <p>I HOPE YOU'RE HAPPY je emočně nabité album, které prozkoumává téma vnitřních bojů, ztráty a naděje.
+                    S osobními texty a melancholickými melodiemi se Shakewell vyrovnává s těžkostmi života, přičemž
+                    stále zůstává autentický vůči svému posluchači.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/44x52QgzCxa1VdrLLNZMaw?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/tpm.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-dark fw-light">FROM THA GUTTAH TO THA GRAVE</h2>
+                  <p>FROM THA GUTTAH TO THA GRAVE je drsné a nekompromisní album, které reflektuje život v těžkých
+                    podmínkách. S temným podtónem a reálnými příběhy z ulice, Shakewell přináší realitu života, který se
+                    pohybuje od začátku v chudých čtvrtích až po osobní ztráty a tragédie.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/0p2GWx4qFzfq9UWd0SrODU?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/ww.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-dark fw-light"> EVERY DOG HAS ITS DAY</h2>
+                  <p>EVERY DOG HAS ITS DAY je album, které se zaměřuje na téma věrnosti, ztrát a triumfů. Shakewell
+                    vypráví příběh o životních vzestupech a pádech, připomínající, že každý má svůj "den," kdy získá to,
+                    co si zaslouží, a to nejen v negativním slova smyslu.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/6Bh3lqFN3BgVaP2j5l99tH?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/gg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-dark fw-light">Pray 4 Shakewell</h2>
+                  <p>Pray 4 Shakewell je album plné intenzivních a upřímných emocí, které odrážejí osobní výzvy a zápasy
+                    umělce. Shakewell ve svých textech volá o pomoc a zároveň sdílí svůj příběh o překonávání těžkostí a
+                    hledání smyslu ve světě, který ho často tlačí dolů.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/4iSHIHjbwqztgHdSeTjuMN?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev custom-control" type="button" data-bs-target="#ramirezCarousel"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-dark rounded" aria-hidden="true"></span>
+          <span class="visually-hidden">Předchozí</span>
+        </button>
+        <button class="carousel-control-next custom-control" type="button" data-bs-target="#ramirezCarousel"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-dark rounded" aria-hidden="true"></span>
+          <span class="visually-hidden">Další</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="germ_alba bg-dark">
+    <div class="container">
+      <h1 class="text-center text-light pt-5">Germ</h1>
+      <div id="germCarousel" class="carousel slide">
+        <div class="carousel-inner pt-5 pb-5">
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/nl_diskografie.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-light fw-light">New World Depression</h2>
+                  <p class="text-light">New World Depression je temné a introspektivní album, které se zaměřuje na
+                    pocity osamělosti,
+                    zmatení a zoufalství v moderním světě. S hlubokými texty a těžkými beaty nabízí album pohled na
+                    současnou společnost a její deprese.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/6hkvLSaj3o564x8Hk6iMMw?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/jsydc.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-light fw-light">FROM THA GUTTAH TO THA GRAVE</h2>
+                  <p class="text-light">FROM THA GUTTAH TO THA GRAVE je drsné a nekompromisní album, které reflektuje
+                    život v těžkých
+                    podmínkách. S temným podtónem a reálnými příběhy z ulice, Shakewell přináší realitu života, který se
+                    pohybuje od začátku v chudých čtvrtích až po osobní ztráty a tragédie.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/32gSPav2xqFylAeCjJCxWi?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/gnl.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-light fw-light"> EVERY DOG HAS ITS DAY</h2>
+                  <p class="text-light">EVERY DOG HAS ITS DAY je album, které se zaměřuje na téma věrnosti, ztrát a
+                    triumfů. Shakewell
+                    vypráví příběh o životních vzestupech a pádech, připomínající, že každý má svůj "den," kdy získá to,
+                    co si zaslouží, a to nejen v negativním slova smyslu.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/1nQwi9UGdNeN1FyzGE7jDt?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/redteen.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-light fw-light">Pray 4 Shakewell</h2>
+                  <p class="text-light">Pray 4 Shakewell je album plné intenzivních a upřímných emocí, které odrážejí
+                    osobní výzvy a zápasy
+                    umělce. Shakewell ve svých textech volá o pomoc a zároveň sdílí svůj příběh o překonávání těžkostí a
+                    hledání smyslu ve světě, který ho často tlačí dolů.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/4aXit1CKxL80R1qruHns8h?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-lg-5 d-flex justify-content-center justify-content-lg-end">
+                <img src="images/concept vague.jpg" class="w-75" alt="Obrázek 1">
+              </div>
+              <div class="col-lg-7 d-flex align-items-center justify-content-md-center justify-content-lg-start">
+                <div class="carousel-text text-center text-md-start">
+                  <h2 class="text-light">SACRIFICE & SABOTAGE</h2>
+                  <p class="text-light">SACRIFICE & SABOTAGE zkoumá témata obětí, které člověk musí učinit, aby dosáhl
+                    svých cílů, a
+                    zároveň zrad a sabotáže, které mohou přijít ze stran, které mu jsou nejblíže. Album je plné temných,
+                    ale silných motivů, které ukazují realitu úspěchu a ceny, kterou za něj člověk zaplatí.</p>
+                  <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/2y57H6nA3vic5t8awwaS69?utm_source=generator" width="80%"
+                    height="152" frameBorder="0" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev custom-control" type="button" data-bs-target="#germCarousel"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon bg-dark rounded" aria-hidden="true"></span>
+            <span class="visually-hidden">Předchozí</span>
+          </button>
+          <button class="carousel-control-next custom-control" type="button" data-bs-target="#germCarousel"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon bg-dark rounded" aria-hidden="true"></span>
+            <span class="visually-hidden">Další</span>
+          </button>
+        </div>
+      </div>
+  </section>
+
+  <footer class="pt-5">
+    <h3>Projekt 1 - 2.G - 2024</h3>
+    <div class="texty">
+      <article>
+        <h4>Simona Poláchová</h4>
+        <p>polach.si23@zaci.spse.cz</p>
+        <p>SPŠE a VOŠ Pardubice</p>
+      </article>
+      <article class="zdroje">
+        <h4>Zdroje</h4>
+        <a href="https://g59records.com/">
+          <p>G59 Records</p>
+        </a>
+        <a href="https://terms.integral.studio/tos">
+          <p>Podmínky použití</p>
+        </a>
+      </article>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-  </body>
+</body>
