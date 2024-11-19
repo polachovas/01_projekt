@@ -11,6 +11,9 @@ h1 {
     font-size: 3.5rem;
 }
 
+h2{font-family: "podium-soft-variable", sans-serif;
+    font-size: 2.8rem;}
+
 .artist img {
     height: 280px;
 }
@@ -30,6 +33,12 @@ h1 {
     height: 500px;
     width: 100%; 
     background: url(images/73f43937da2a366643f4f507f523871a.jpg) center center / cover no-repeat; 
+    display: flex;
+  }
+
+  .custom-background3 {
+    height: 400px;
+    width: 100%; 
     display: flex;
   }
 
@@ -92,5 +101,15 @@ a{color: #76A6BD;}
 
 .diskografie_nahled p{max-width: 500px;}
 
+.sb_karta{background-color: #d0bf81;}
 
+.nl_karta{background-color: #6b403b;}
+
+.ramirez_karta{background-color: #938443;}
+
+.germ_karta{background-color: #70a9bd;}
+
+.shakewell_karta{background-color: #809423;}
+
+.chetta_karta{background-color: #ae8529;}
   
