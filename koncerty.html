@@ -157,6 +157,75 @@
     </div>
   </section>
 
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="image1.jpg" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="showSlide(0)" alt="Image 1">
+      </div>
+      <div class="col-md-4">
+        <img src="image2.jpg" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="showSlide(1)" alt="Image 2">
+      </div>
+      <div class="col-md-4">
+        <img src="image3.jpg" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#galleryModal" onclick="showSlide(2)" alt="Image 3">
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="galleryModalLabel">Gallery</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="carousel" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="image1.jpg" class="d-block w-100" alt="Image 1">
+              </div>
+              <div class="carousel-item">
+                <img src="image2.jpg" class="d-block w-100" alt="Image 2">
+              </div>
+              <div class="carousel-item">
+                <img src="image3.jpg" class="d-block w-100" alt="Image 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="pt-5">
+    <h3>Projekt 1 - 2.G - 2024</h3>
+    <div class="texty">
+      <article>
+        <h4>Simona Poláchová</h4>
+        <p>polach.si23@zaci.spse.cz</p>
+        <p>SPŠE a VOŠ Pardubice</p>
+      </article>
+      <article class="zdroje">
+        <h4>Zdroje</h4>
+        <a href="https://g59records.com/">
+          <p>G59 Records</p>
+        </a>
+        <a href="https://terms.integral.studio/tos">
+          <p>Podmínky použití</p>
+        </a>
+      </article>
+    </div>
+  </footer>
+
   <script>
     let position_relative =
       document.querySelectorAll('.position-relative');
